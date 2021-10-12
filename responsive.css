@@ -5,7 +5,9 @@
     color: red;
   }
   /* Bagian Header */
-
+  p {
+    color : blueviolet
+  }
   /*Akhir Bagian Header */
 
   /* Bagian Main */
