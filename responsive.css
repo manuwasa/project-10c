@@ -1,13 +1,9 @@
 /* Responsive untuk tablet */
 @media (max-width: 1000px) {
   /* Code Dibawah */
-  h1 {
-    color: red;
-  }
+
   /* Bagian Header */
-  p {
-    color : blueviolet
-  }
+
   /*Akhir Bagian Header */
 
   /* Bagian Main */
@@ -26,9 +22,7 @@
 /* Responsive untuk mobile */
 @media (max-width: 670px) {
   /* Code Dibawah */
-  h1 {
-    color: blue;
-  }
+
   /* Bagian Header */
 
   /*Akhir Bagian Header */
