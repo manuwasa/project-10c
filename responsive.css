@@ -3,7 +3,38 @@
   /* Code Dibawah */
 
   /* Bagian Header */
+  header nav .logo-wrapper {
+    text-align: center;
+  }
 
+  header .hero-wrapper {
+    padding: 10px;
+  }
+
+  header .hero-wrapper .hero-text {
+    text-align: left;
+    margin-top: 150px;
+    width: 50%;
+  }
+
+  header .hero-wrapper .hero-text h1 {
+    font-size: 30px;
+  }
+
+  header .hero-wrapper .image-wrapper {
+    text-align: center;
+    width: 50%;
+  }
+
+  header img {
+    width: 100%;
+    margin-top: 20px;
+  }
+
+  header .button-list a {
+    margin-left: 0;
+    width: 50%;
+  }
   /*Akhir Bagian Header */
 
   /* Bagian Main */
@@ -24,7 +55,48 @@
   /* Code Dibawah */
 
   /* Bagian Header */
+  header nav ul {
+    display: none;
+  }
 
+  .fas {
+    font-size: 25px;
+    display: block !important;
+  }
+
+  header nav {
+    padding-left: 20px;
+
+    padding-right: 30px;
+  }
+
+  header .hero-wrapper {
+    padding: 10px;
+  }
+
+  header .hero-wrapper .hero-text {
+    margin-top: 40px;
+    width: 100%;
+  }
+
+  header .hero-wrapper .hero-text h1 {
+    font-size: 40px;
+  }
+
+  header .hero-wrapper .image-wrapper {
+    text-align: left;
+    width: 100%;
+  }
+
+  header img {
+    width: 100%;
+    margin-top: 80px;
+  }
+
+  header .button-list a {
+    margin-left: 0;
+    width: 100%;
+  }
   /*Akhir Bagian Header */
 
   /* Bagian Main */
