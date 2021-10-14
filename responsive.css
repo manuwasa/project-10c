@@ -80,6 +80,10 @@
     line-height: 20px;
   }
 
+  .lesson-wrapper {
+    background-color: #ffffff;
+  }
+
   /*Akhir Bagian Body */
   .lesson {
     width: 100%;
@@ -180,6 +184,10 @@
     width: 50%;
     margin-bottom: 50px;
     margin-left: -3px;
+  }
+
+  .lesson-wrapper {
+    background-color: #ffffff;
   }
 
   /*Akhir Bagian Body */
