@@ -6,7 +6,7 @@
   }
   /* Bagian Header */
   p {
-    color : blueviolet
+    color: blueviolet;
   }
   /*Akhir Bagian Header */
 
@@ -15,9 +15,24 @@
   /*Akhir Bagian Main */
 
   /* Bagian Body */
+  .top-wrapper {
+    text-align: left;
+  }
+
+  .top-wrapper h1 {
+    font-size: 24px;
+    line-height: 36px;
+  }
+
+  .top-wrapper p {
+    font-size: 14px;
+    line-height: 20px;
+  }
 
   /*Akhir Bagian Body */
-
+  .lesson {
+    width: 100%;
+  }
   /* Bagian Footer */
 
   /*Akhir Bagian Footer */
