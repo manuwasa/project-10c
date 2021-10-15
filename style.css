@@ -421,13 +421,10 @@ h4 {
 
 .footer-left p {
   padding-right: 20%;
+  color: #ffff;
 }
 
 .footer-bottom img {
   width: 200px;
-}
-
-.footer-bottom {
-  color: #ffffff;
 }
 /*Akhir Bagian Footer */
