@@ -18,11 +18,11 @@
   font-size: 40px;
 }
 .main-logo {
-  float:left;
+  float: left;
   width: 25%;
 }
 .main-image {
-  position : relative;
+  position: relative;
   margin-left: 20px;
   margin-right: 20px;
 }
@@ -31,117 +31,40 @@
   font-weight: bold;
   padding-left: 50px;
   color: rgb(37, 48, 110);
-  width:100%;
+  width: 100%;
 }
 .more-main li {
-  padding-bottom:10px;
-  font-size:20px;
+  padding-bottom: 10px;
+  font-size: 20px;
 }
 .more-main p {
-  padding-bottom:10px;
+  padding-bottom: 10px;
 }
 .more-main a {
-  padding: 5px  6px;
+  padding: 5px 6px;
   background-color: crimson;
-  float:right;
-  color:white;
+  float: right;
+  color: white;
 }
 .main-image .more-main {
-  position:absolute;
-  top:30px;
-  padding-bottom:2px;
+  position: absolute;
+  top: 30px;
+  padding-bottom: 2px;
   visibility: hidden;
 }
 .main-image:hover .more-main {
-  visibility:visible;
+  visibility: visible;
 }
 .main-image:hover img {
   opacity: 0.2;
 }
 .text-bottom {
   margin-top: 10px;
-  letter-spacing:5px;
+  letter-spacing: 5px;
 }
 /*Akhir Bagian Main */
 
 /* Bagian Body */
-body {
-  font-family: "Lucida Grande";
-}
-
-a {
-  text-decoration: none;
-}
-
-.clear {
-  clear: left;
-}
-
-.container {
-  max-width: 1170px;
-  padding: 0 15px;
-  margin: 0 auto;
-}
-
-.top-wrapper h1 {
-  opacity: 0.7;
-  font-size: 45px;
-  letter-spacing: 5px;
-  margin-bottom: 10px;
-}
-
-.top-wrapper p {
-  opacity: 0.7;
-  margin-bottom: 3px;
-}
-
-.btn-wrapper {
-  text-align: center;
-  margin: 20px 0;
-}
-
-.btn-wrapper p {
-  margin: 10px 0;
-}
-
-.btn {
-  padding: 12px 24px;
-  color: white;
-  display: inline-block;
-  opacity: 0.8;
-  border-radius: 4px;
-  text-align: center;
-}
-
-.btn:hover {
-  opacity: 1;
-}
-
-.fa {
-  margin-right: 5px;
-}
-
-header {
-  height: 65px;
-  width: 100%;
-  background-color: rgba(34, 49, 52, 0.9);
-  position: fixed;
-  top: 0;
-  z-index: 10;
-}
-
-.header-right a:hover {
-  background-color: rgba(255, 255, 255, 0.3);
-}
-
-.lesson-wrapper {
-  padding-bottom: 80px;
-  padding-left: 5%;
-  padding-right: 5%;
-  background-color: #f7f7f7;
-  text-align: center;
-}
-
 .heading {
   padding-top: 80px;
   padding-bottom: 50px;
@@ -150,32 +73,6 @@ header {
 
 .heading h2 {
   font-weight: normal;
-}
-
-.lesson {
-  float: left;
-  width: 25%;
-  margin: 25px;
-  padding: 0px;
-}
-
-.lesson-icon {
-  position: relative;
-}
-
-.lesson-icon p {
-  position: absolute;
-  top: 44%;
-  width: 100%;
-  color: black;
-}
-
-.txt-contents {
-  width: 80%;
-  display: inline-block;
-  margin-top: 15px;
-  font-size: 15px;
-  color: #ca765d;
 }
 
 .heading h3 {
