@@ -210,20 +210,15 @@
   }
 
   /* Bagian Footer */
-  .footer-right > * {
-    flex: 1;
+  @media(max-width: 767px){
+    .footer-col{
+      width: 50%;
+      margin-bottom: 30px;
   }
-
-  .features {
-    flex-grow: 2;
   }
-
-  .footer-left {
-    flex: 1 0px;
-  }
-
-  .footer-right {
-    flex: 2 0px;
+  @media(max-width: 574px){
+    .footer-col{
+      width: 100%;
   }
   /*Akhir Bagian Footer */
 }
