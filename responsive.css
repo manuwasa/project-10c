@@ -210,6 +210,20 @@
   }
 
   /* Bagian Footer */
+  .footer-right > * {
+    flex: 1;
+  }
 
+  .features {
+    flex-grow: 2;
+  }
+
+  .footer-left {
+    flex: 1 0px;
+  }
+
+  .footer-right {
+    flex: 2 0px;
+  }
   /*Akhir Bagian Footer */
 }
