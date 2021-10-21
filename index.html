@@ -29,6 +29,14 @@
                 </ul>
                 <i class="fas fa-bars"></i>
             </div>
+            <div class="nav-mobile">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Destination</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
         </nav>
 
         <div class="hero-wrapper">
@@ -208,6 +216,14 @@
         </div>
     </footer>
     <!-- Akhir Bagian Footer -->
+
+    <script>
+        const bars = document.querySelector('.fas');
+        bars.addEventListener('click', function () {
+            const nav = document.querySelector("nav");
+            nav.classList.toggle('active');
+        })
+    </script>
 </body>
 
 </html>

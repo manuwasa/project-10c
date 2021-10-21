@@ -101,8 +101,21 @@
   header {
     padding-bottom: 400px;
   }
-  header nav ul {
+
+  header nav .nav-wrapper ul {
     display: none;
+  }
+
+  .nav-mobile {
+    width: 100%;
+    /* float: left; */
+    margin-top: 70px;
+    display: block;
+  }
+
+  .nav-mobile ul li {
+    float: none;
+    margin-top: 20px;
   }
 
   .fas {

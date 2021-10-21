@@ -35,6 +35,15 @@ header nav {
   max-height: 60px;
   width: 100%;
   overflow: hidden;
+  transition: all 0.3s ease-out;
+}
+
+.active {
+  padding-bottom: 250px;
+}
+
+.nav-mobile {
+  display: none;
 }
 
 header nav .logo-wrapper {
@@ -74,6 +83,7 @@ header ul li a:hover {
 
 .fas {
   display: none !important;
+  cursor: pointer;
 }
 
 header .hero-wrapper {
